@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('./images/cur1.png'),auto;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.975);
+}
+header{
+    flex-wrap: wrap;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./images/headback.png");
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+
+.head-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 10px;
+}
+.head-content p{
+    font-size: 16px;
+    width: 100%;
+    
+}
+.c2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.c2 imf{
+    max-width: 120px;
+    height: auto;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 40px;
+background: linear-gradient(to right,#422060,#051d36);
+    /* background-image: url("./images/navimg3.png") */
+    background-size: bottom cover;
+}
+.navbar a{
+   
+    text-decoration: none;
+    background: transparent;
+    color: white;
+
+}
+
+.navbar a:hover{
+    border: 2px solid goldenrod;
+    padding: 5px;
+    
+
+}
+.input{
+    display: flex;
+    align-items: center;
+   
+    border: none;
+   
+}
+
+.navbar input{
+
+
+ border-radius: 5px; 
+ outline: 2px solid rgb(150, 141, 141);
+    padding: 5px;
+    margin-right: 4px;
+}
+
+
+main{
+    background-image: url("./images/mainback.png");
+}
+.vid{
+    height: 200px;
+    
+}
+.launcers img{
+box-shadow: 5px 5px 5px rgba(white,0.6);
+}
+li img{
+    height: 300px;
+    margin: 10px;
+    /* border: 1px solid black; */
+        border: none;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ul{
+     overflow-x: scroll;
+    background-color: rgb(225, 219, 219);
+    padding: 20px;
+}
+.gslv{
+     overflow-x: scroll;
+    background-color: rgb(225, 219, 219);
+    padding: 20px;
+}
+li :hover{
+    border: 2px solid black;
+}
+
+/* .jdiv img{
+    background-color: antiquewhite;
+    color: bisque;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 380px;
+    width: 100%;
+  
+
+} */
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
