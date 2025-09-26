@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url('./images/cur1.png'),auto;
+    cursor: url('cur1.png'),auto;
 }
 body{
     background-color: rgba(0, 0, 0, 0.975);
@@ -13,7 +13,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("./images/headback.png");
+    background-image: url("headback.png");
     background-size: cover;
     color: white;
     padding: 10px;
@@ -54,7 +54,7 @@ align-items: center;
 justify-content: space-around;
 height: 40px;
 background: linear-gradient(to right,#422060,#051d36);
-    /* background-image: url("./images/navimg3.png") */
+    /* background-image: url("navimg3.png") */
     background-size: bottom cover;
 }
 .navbar a{
@@ -90,7 +90,7 @@ background: linear-gradient(to right,#422060,#051d36);
 
 
 main{
-    background-image: url("./images/mainback.png");
+    background-image: url("mainback.png");
 }
 .vid{
     height: 200px;
